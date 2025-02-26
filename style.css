@@ -75,10 +75,23 @@ a:hover {
 
 .bts-image {
     width: 100%;
-    max-width: 400px; 
-    height: auto; 
-    display: block; 
-    margin: 10px auto; 
-    border-radius: 10px; 
+    max-width: 300px; 
+    height: auto;
+    display: block;
+    margin: 20px auto; 
+    border-radius: 10px;
 }
 
+.bts-image {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.image-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}

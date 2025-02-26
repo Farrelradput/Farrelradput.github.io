@@ -72,3 +72,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.bts-image {
+    width: 100%;
+    max-width: 400px; 
+    height: auto; 
+    display: block; 
+    margin: 10px auto; 
+    border-radius: 10px; 
+}
+

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #07024d;
+    background: linear-gradient(150deg, #07024d, #3a1c71, #ff6ec4);
     margin: 0;
     padding: 20px;
     background-size: cover;
@@ -20,7 +20,7 @@ body {
 
 .profile-img {
     float: right;
-    border-radius: 60%;
+    border-radius: 50%;
     width: 120px;
     height: 120px;
     object-fit: cover;
@@ -34,7 +34,7 @@ body {
     top: 4px;
     width: 135px;
     height: 135px;
-    background-color: #07024d;
+    background: linear-gradient(150deg, #07024d, #3a1c71, #ff6ec4);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -44,17 +44,17 @@ body {
 }
 
 .contact-icons {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transition: transform 0.2s;
-    gap: 10px;
-    display: flex;
+    background: linear-gradient(150deg, #07024d, #3a1c71, #ff6ec4);
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-flex;
+    gap: 25px;
+}
+.contact-icons a {
+    color: white; 
+    font-size: 24px;
 }
 
-.contact-icons a {
-    color: #07024d;
-}
 
 .contact-logo:hover {
     transform: scale(1.1);
@@ -75,16 +75,17 @@ a:hover {
 
 .bts-image {
     width: 100%;
-    max-width: 300px; 
+    max-width: 300px;
     height: auto;
     display: block;
     margin: 20px auto; 
     border-radius: 10px;
 }
 
+
 .bts-image {
     float: left;
-    width: 300px;
+    width: 300px; 
     height: auto;
     margin-right: 15px;
     border-radius: 10px;

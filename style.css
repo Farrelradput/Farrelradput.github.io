@@ -6,7 +6,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
-
 }
 
 .container {
@@ -21,9 +20,9 @@ body {
 
 .profile-img {
     float: right;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    border-radius: 60%;
+    width: 135px;
+    height: 135px;
     object-fit: cover;
     position: absolute;
     z-index: 1;
@@ -32,9 +31,9 @@ body {
 .profile-img-container {
     position: absolute;
     right: 20px;
-    top: 4px;
-    width: 135px;
-    height: 135px;
+    top: 12px;
+    width: 150px;
+    height: 150px;
     background: linear-gradient(150deg, #07024d, #3a1c71, #ff6ec4);
     border-radius: 50%;
     display: flex;
@@ -50,19 +49,19 @@ body {
     border-radius: 25px;
     display: inline-flex;
     gap: 25px;
+
 }
 .contact-icons a {
     color: white; 
     font-size: 24px;
 }
 
-
 .contact-logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 ul {
-    list-style-type: square;
+    list-style-type: circle;
 }
 
 a {
@@ -88,8 +87,8 @@ a:hover {
     float: left;
     width: 300px; 
     height: auto;
-    margin-right: 15px;
-    border-radius: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
 }
 
 .image-container::after {
